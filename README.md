@@ -17,18 +17,18 @@ Backend tarafına küçük bir merhaba demiş olduk.
 
 Projeye dev sürecini kolaylaştımak için nodemon dahil edildi ve scripte eklendi.
 
-```` "start": "nodemon index.js",`
-
 ```
-
+"start": "nodemon index.js",`
+```
+###
 index.js teki bu kod sayesinde sunucunun çalıştığı porta gidince bir mesajla karşılaşabileceğiz.
-```
 
+```
 app.get("/", (require, response) => {
 response.json({ message: "server is working its ok" });
 });
-
 ```
+
 npm start ile proje başlatılır. Server ınız run, mongoDB niz connected olsun.
 
 ```
