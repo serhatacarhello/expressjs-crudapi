@@ -1,0 +1,37 @@
+# Dependency directories
+node_modules/
+bower_components/
+
+# Environment variables file (örneğin .env)
+.env
+
+# Logs
+logs/
+*.log
+
+# Built files
+dist/
+build/
+
+# Development environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE ve editör dosyaları (VSCode, WebStorm, IntelliJ, vb.)
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+*.idea/
+
+# Sistem dosyaları
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+ehthumbs.db
+Desktop.ini
